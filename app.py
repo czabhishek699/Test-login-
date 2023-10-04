@@ -12,7 +12,7 @@ def login():
     username = data.get('username')
     password = data.get('password')
 
-    if username == 'czabhishek' and password == '82025849':
+    if username == '11' and password == '22':
         return 'Login successful'
     else:
         return 'Invalid username or password'
